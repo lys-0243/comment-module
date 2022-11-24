@@ -18,7 +18,7 @@ const CommentForm = ({ submitLabel, handleSubmit }) => {
         onChange={(e) => setText(e.target.value)}
         rows="5"
         cols="30"
-        placeholder="Comment text."
+        placeholder="Type your coment text here"
       />
       <button className="comment-form-button"  disabled={isTextAreaDisabled}>
 
