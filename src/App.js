@@ -1,14 +1,15 @@
 import Comments from "./comments/Comments";
-import './App.css'
 
-function App() {
+const App = () => {
   return (
     <div>
-      <h1>Tous les commentaires</h1>
-      <Comments currentUserId="1" />
+      <h1>Module des commentaires</h1>
+      <Comments
+        commentsUrl="http://localhost:3004/comments"
+        currentUserId="1"
+      />
     </div>
   );
-}
+};
 
 export default App;
-
